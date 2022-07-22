@@ -1,0 +1,149 @@
+*{
+font-family: poppins, sans-serif;
+}
+
+body{
+    margin-bottom: 10%;
+
+}
+
+.d-flex{
+    display: flex;
+}
+
+.text-align-c{
+    text-align: center;
+}
+
+.just-c{
+    justify-content: space-between;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.white-color{
+    color: white;
+}
+
+.blue-color{
+    color: blue;
+}
+
+.grey-color{
+    color: grey;
+}
+
+.li-style{
+    list-style: none;
+}
+
+/* nav section */
+nav{
+    margin: -1%;
+    padding: 3% 10% 10% 10%;
+    background-color: rgb(223, 79, 79);
+    border-bottom-left-radius: 7%;
+    background-image: url(my-files/bg-pattern-intro-desktop.svg);
+    background-position: center;
+}
+
+.nav-ul{
+    gap: 4rem;
+    align-self: center;   
+}
+
+.nav-a{
+    text-decoration: none;
+    align-self: center;
+}
+
+.nav-a-btn{
+    margin-left: auto;
+    gap: 4rem;
+    align-self:center ;
+}
+
+.nav-h1-1{
+    font-size: 2.5rem;
+}
+
+.nav-btn-1{
+    background-color:white;
+    color:rgb(223, 79, 79);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 1.2rem;
+}
+
+.nav-h1-2{
+    font-size: 4rem;
+    font-weight: 500;
+
+}
+
+.nav-p{
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+
+.nav-btn-2{
+    color:rgb(223, 79, 79);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 1rem;
+
+}
+
+.nav-btn-3{
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(223, 79, 79);
+    border-color: white;
+}
+
+/* design section */
+
+.design-section{
+    margin: 10% -20% 0% 5%;
+}
+
+.design-intro-h{
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.design-text-img-wrapper{
+    gap: 5%;
+}
+
+.design-text{
+    width:60% ;
+}
+
+.design-img-wrapper{
+    
+    
+}
+
+.design-image{
+    margin-top: -15%;
+    width: 100%;
+    height: 120%;
+    
+}
