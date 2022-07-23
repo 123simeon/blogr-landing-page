@@ -2,11 +2,6 @@
 font-family: poppins, sans-serif;
 }
 
-body{
-    margin-bottom: 10%;
-
-}
-
 .d-flex{
     display: flex;
 }
@@ -36,7 +31,7 @@ body{
 }
 
 .blue-color{
-    color: blue;
+    color: rgb(65, 65, 102);
 }
 
 .grey-color{
@@ -114,36 +109,245 @@ nav{
     padding: 0.8rem 2rem 0.8rem 2rem;
     font-size: 1rem;
     background-color: rgb(223, 79, 79);
-    border-color: white;
+    border-color: white; position: relative;
 }
 
 /* design section */
 
 .design-section{
-    margin: 10% -20% 0% 5%;
+    margin: 20% -20% 0% 5%;
+    position: relative;
 }
 
 .design-intro-h{
-    margin-bottom: 10%;
-    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: -18%;
+    font-size: 2.5rem       
 }
 
 .design-text-img-wrapper{
-    gap: 5%;
+    gap: 3%;
 }
 
-.design-text{
-    width:60% ;
-}
-
-.design-img-wrapper{
-    
-    
+.design-text, .advantage-text{
+    width:40% ;
 }
 
 .design-image{
-    margin-top: -15%;
+    margin-top: -20%;
     width: 100%;
-    height: 120%;
+    height: 120%;    
+}
+
+.design-text-h1, .advantage-text-h1{
+    font-size: 1.6rem;
+}
+
+.design-text-p, .advantage-text-p{
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+
+/*  infrastructure section */
+
+.Infrastructure-section{
+    position: relative;   
+}
+
+.blue-background{
+    background-color:  rgb(65, 65, 102);
+    height: 65vh;
+    border-top-right-radius: 25vh;
+    border-bottom-left-radius: 25vh;
+    margin:  5% -1% 0% -1%;
+
+}
+
+.infrastructure-phones{
+    width: 40%;
+    height: 135%;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+}
+
+.infrastructure-text{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.infrastructure-text-h1{
+    font-size: 2.3rem;
+    font-weight: 200;
     
 }
+
+.infrastructure-text-p{
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+
+
+/* advantage section */
+
+.advantage-section{
+    margin: 20% 5% 0% -25%;   
+}
+
+.advantage-text{
+    margin-left: -3%;
+}
+
+/* main footer */
+
+.main-footer{
+    margin: 0% -1% 0% -1% ;
+    background-color: rgb(65, 65, 102);
+    justify-content: space-around;
+    border-top-right-radius: 25vh;
+}
+
+.footer-ul{
+    list-style: none;
+    margin-left: -35%;   
+}
+
+.footer-ul-p{
+    padding: 2%;
+}
+
+.pad{
+    padding: 2%;
+}
+
+.main-footer > .footer-ul-p > .footer-ul > a{
+    text-decoration: none;
+}
+
+.main-footer > .footer-ul-p > .footer-ul > a> li{
+    padding-bottom: 20%;
+}
+
+.footer-logo{
+    padding: 2%;
+    font-size: 2.5rem;
+}
+
+.footer-p{
+    font-size: 1.5rem;
+}
+
+
+@media (min-width :0px) and (max-width :600px){
+    nav{
+        padding: 3% 3% 10% 3%;
+    }
+
+    .nav-wrapper{
+        flex-direction: column;
+    }
+
+    .nav-logo-li{
+        flex-direction: column;
+    }
+
+    .nav-ul{
+        width: 80%;
+        margin: auto;
+    }
+
+    .nav-a-btn{
+        width: 80%;
+        margin: 5% auto 0% auto;    
+    }
+
+    .design-section{
+        margin: 60% 5% 20% 5%;
+
+    }
+
+    .design-text-img-wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .design-text{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .design-intro-h{
+        left: 10%;
+        top: -23%;
+        width: 90%;      
+    }
+
+    .Infrastructure-section{
+        margin-top: 40%;
+    }
+
+    .blue-background{
+        height: 110vh;     
+    }
+
+    .infrastructure-phones{
+        width: 70%;
+        height: 55%;
+        top: -25%;
+        left: 20%;
+    }
+    
+    .infrastructure-text{
+        width: 50%;
+        position: absolute;
+        top: 25%;
+        right: 30%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .advantage-section{
+        margin: 35% 5% 0% 5%;   
+    }
+
+    .advantage-text-img-wrapper{
+        flex-direction: column;
+    }
+    
+    .advantage-text{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .main-footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 10% 10% 10% 0%;
+    }
+    
+    .footer-ul{
+        margin-left: -15%;   
+    }
+    
+    .footer-ul-p{
+        padding: 0%;
+    }
+    
+    .pad{
+        padding: 0%;
+    }
+    
+    .main-footer > .footer-ul-p > .footer-ul > a> li{
+        padding-bottom: 1%;
+    }
+    
+    
+    
+}
+
